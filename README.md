@@ -5,6 +5,8 @@ NOTE: Please adjust the "Windows SDK Version" according to your present installa
 in each project's properties (ALT-ENTER).
 
 # Revision histrory
+### 2018041/R95
+* Update to torito-C 20180411/R95
 ### 20180130/R86
 * Update to torito-C 20180130/R86
 ### 20180108/R85
