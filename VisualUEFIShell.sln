@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome8", "welcome8\welcom
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome5", "welcome5\welcome5.vcxproj", "{0077AF38-5F1A-4AA5-984A-852F3D91098E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "argcv", "argcv\argcv.vcxproj", "{38E569BF-F2F2-4E4A-9A27-33916660DA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		UEFIx86-64|x64 = UEFIx86-64|x64
@@ -67,6 +69,10 @@ Global
 		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.UEFIx86-64|x64.Build.0 = Release|x64
 		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64|x64.ActiveCfg = Debug|x64
 		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64|x64.Build.0 = Debug|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64|x64.ActiveCfg = Release|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64|x64.Build.0 = Release|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64|x64.ActiveCfg = Debug|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
