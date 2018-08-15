@@ -6,6 +6,8 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision histrory
+### 20180815
+* add UDK2018 MdePkg includes to enable acces to UEFI API
 ### 20180717/R101
 * Update to torito-C 20180717/R101
 ### 2018041/R95
