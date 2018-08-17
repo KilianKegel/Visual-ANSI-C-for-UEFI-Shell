@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome", "welcome\welcome.vcxproj", "{5DF36606-FCB4-4FCC-A2FB-423E43492F00}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E} = {9B3D839B-3A5A-41A2-ACD1-996F3087C13E}
-		{325CC6F7-8607-455F-8EA0-029E4DC17785} = {325CC6F7-8607-455F-8EA0-029E4DC17785}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome1", "welcome1\welcome1.vcxproj", "{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}"
 EndProject
