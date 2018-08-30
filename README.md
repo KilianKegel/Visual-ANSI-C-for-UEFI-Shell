@@ -6,6 +6,8 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision histrory
+### 20180830/R102
+* Update to torito-C 20180830/R102
 ### 20180817
 * add UDK2018 MdePkg includes to enable acces to UEFI API
 * fixed structure alignment to default / 8 byte alignment
