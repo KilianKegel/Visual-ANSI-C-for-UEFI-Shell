@@ -11,9 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\libraries\toritoC64R.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="welcome4.c">
       <Filter>Source Files</Filter>
     </ClCompile>
