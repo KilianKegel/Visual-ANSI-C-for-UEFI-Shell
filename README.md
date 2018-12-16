@@ -6,6 +6,12 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision histrory
+### 20181216/R119
+* Update to torito-C 20181216/R119 that provides various improvements
+* add "WinNTx86-64 (Microsoft C Library)" solution configuration. 
+  Previously only "UEFIx86-64 (Torito C Library)" and "WinNTx86-64 (Torito C Library)"
+  For varification projects can be linked against the original Microsoft C library and the Torito C Library
+* Update WindowsTargetPlatformVersion to  10.0.17134.0 from 10.0.16299.0
 ### 20181129/R116
 * Update to torito-C 20181129/R116 that provides various improvements
 ### 20181112/R110
