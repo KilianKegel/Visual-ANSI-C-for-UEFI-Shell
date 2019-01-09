@@ -6,6 +6,8 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision histrory
+### 20190109/R123
+* Update to torito-C 20190108/R123 that provides various improvements
 ### 20181216/R119
 * Update to torito-C 20181216/R119 that provides various improvements
 * add "WinNTx86-64 (Microsoft C Library)" solution configuration. 
