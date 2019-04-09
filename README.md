@@ -5,7 +5,7 @@ NOTE: Please adjust the "Windows SDK Version" according to your present installa
 in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
-# Revision histrory
+# Revision history
 ### 20190109/R123
 * Update to torito-C 20190108/R123 that provides various improvements
 ### 20181216/R119
