@@ -6,6 +6,8 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision history
+### 20190410/R126
+* Update to torito - C 20190410 / R126 that provides various improvements
 ### 20190109/R123
 * Update to torito-C 20190108/R123 that provides various improvements
 ### 20181216/R119
