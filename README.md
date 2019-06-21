@@ -6,6 +6,8 @@ in each project's properties (ALT-ENTER).
 -> RETARGET solution
 
 # Revision history
+### 20190621/R133
+* Update to torito - C 20190621 / R133 that adds VS2019 support, remove library dependancy from compiler version
 ### 20190410/R126
 * Update to torito - C 20190410 / R126 that provides various improvements
 ### 20190109/R123
