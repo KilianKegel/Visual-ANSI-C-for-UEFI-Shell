@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     char string[] = { "Welcome, to the jungle\n" };
 
     do {
-        fputc(string[i], stdout);   // SURPRISE, SURPISE: fputc() DOES write a character necessarily to a given FILE*,
+        fputc(string[i], stdout);   // SURPRISE, SURPRISE: fputc() DOES write a character necessarily to a given FILE*,
 
         fputc(string[i], stderr);   // toritoc's is compatible to LIBCMT.LIB, that means fputc() is same as putc();
 
