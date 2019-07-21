@@ -1,10 +1,6 @@
 # Visual ANSI C for UEFI Shell
 Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2017.
 
-NOTE: Please adjust the "Windows SDK Version" according to your present installation
-in each project's properties (ALT-ENTER).
--> RETARGET solution
-
 # Revision history
 ### 20190621/R133
 * Update to torito - C 20190621 / R133 that adds VS2019 support, remove library dependancy from compiler version
