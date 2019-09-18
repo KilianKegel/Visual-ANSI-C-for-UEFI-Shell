@@ -2,6 +2,8 @@
 Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2017.
 
 # Revision history
+### 20190918/R137
+* update to VS2019 Version 16.2.5 (Spectre Support)
 ### 20190621/R133
 * Update to torito - C 20190621 / R133 that adds VS2019 support, remove library dependancy from compiler version
 ### 20190410/R126
