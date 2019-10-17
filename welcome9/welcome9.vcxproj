@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Win64.msft|x64">
@@ -16,10 +16,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{38E569BF-F2F2-4E4A-9A27-33916660DA09}</ProjectGuid>
+    <ProjectGuid>{080e2e3a-2a7b-4799-9079-e2be03581bff}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>argcv</RootNamespace>
-    <ProjectName>argcv</ProjectName>
+    <RootNamespace>welcome9</RootNamespace>
+    <ProjectName>welcome9</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -83,7 +83,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_NO_CRT_STDIO_INLINE</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_NO_CRT_STDIO_INLINE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <ExceptionHandling>false</ExceptionHandling>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -97,7 +97,6 @@
       <AdditionalOptions>/D_NO_CRT_STDIO_INLINE %(AdditionalOptions)</AdditionalOptions>
       <CompileAs>CompileAsC</CompileAs>
       <AssemblerOutput>All</AssemblerOutput>
-      <MultiProcessorCompilation>false</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,12 +126,12 @@
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
-      <AdditionalOptions>/D_NO_CRT_STDIO_INLINE /wd4996 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/D_NO_CRT_STDIO_INLINE %(AdditionalOptions)</AdditionalOptions>
       <CompileAs>CompileAsC</CompileAs>
       <AssemblerOutput>All</AssemblerOutput>
-      <MultiProcessorCompilation>false</MultiProcessorCompilation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +151,7 @@
       <Optimization>MinSpace</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>false</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_NO_CRT_STDIO_INLINE</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_NO_CRT_STDIO_INLINE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <DebugInformationFormat>None</DebugInformationFormat>
       <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -165,7 +164,6 @@
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalOptions>/D_NO_CRT_STDIO_INLINE</AdditionalOptions>
       <AssemblerOutput>All</AssemblerOutput>
-      <MultiProcessorCompilation>false</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <SubSystem>EFI Application</SubSystem>
@@ -195,7 +193,7 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="argcv.c" />
+    <ClCompile Include="welcome9.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

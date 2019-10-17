@@ -2,6 +2,14 @@
 Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2017.
 
 # Revision history
+### 20191017/R141
+* add CTRL-C support
+  NOTE: CTRL-C is implemented on Signal handling `<signal.h>` interface and can be catched and supressed
+        by the application. https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome9/welcome9.c
+* fixed system() library function does not workaround completely fully the EfiShellProtocol->Execute() bug
+  to display the drive mappings, when multipartition ("BLK10") mass storage device is attached
+* implement UEFI Shell compatibility mode for STDOUT and STDERR to allow I/O redirection `>a` for ASCII and `>` for UCS-2/UTF16
+* add build switch `char _gSTDOUTMode;   /* 0 == UEFI Shell default, 1 == ASCII only */` to force TORITO C backward compatibility ( ASCII mode only )
 ### 20190922/R138
 * Update to torito-C 20190621/R138 that autodetects I/O redirection UTF16 vs. ASCII
 * add support for VS2019 ver 16.2.5

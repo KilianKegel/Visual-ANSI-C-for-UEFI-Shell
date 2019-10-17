@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome", "welcome\welcome.vcxproj", "{5DF36606-FCB4-4FCC-A2FB-423E43492F00}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome5", "welcome5\welcome5.vcxproj", "{0077AF38-5F1A-4AA5-984A-852F3D91098E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "argcv", "argcv\argcv.vcxproj", "{38E569BF-F2F2-4E4A-9A27-33916660DA09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome9", "welcome9\welcome9.vcxproj", "{080E2E3A-2A7B-4799-9079-E2BE03581BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -90,6 +92,12 @@ Global
 		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = Win64.msft|x64
 		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = Win64|x64
 		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Torito C Library)|x64.Build.0 = Win64|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = Efi64|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64 (Torito C Library)|x64.Build.0 = Efi64|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = Win64.msft|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = Win64.msft|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = Win64|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Torito C Library)|x64.Build.0 = Win64|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
