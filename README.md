@@ -1,5 +1,5 @@
 # Visual ANSI C for UEFI Shell
-Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2017.
+Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2019.
 
 # Revision history
 ### 20191017/R141
