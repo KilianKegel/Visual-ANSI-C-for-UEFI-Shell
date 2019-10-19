@@ -1,6 +1,8 @@
 # Visual ANSI C for UEFI Shell
 Create and debug Standard C UEFI Shell EFI_APPLICATION using Visual Studio 2019.
 
+![C](CfgMgr.png)
+
 # Revision history
 ### 20191017/R141
 * add CTRL-C support<br>
