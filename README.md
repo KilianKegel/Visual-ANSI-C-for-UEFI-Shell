@@ -4,6 +4,9 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 ![C](CfgMgr.png)
 
 # Revision history
+https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20191126/R149
+* Update to torito-C 20191126/R149
 ### 20191111/R146
 * Update to torito-C 20181111/R146
 * add missing intrinsic functions _difftime64() and _gmtime64() required by Microsoft Compiler
