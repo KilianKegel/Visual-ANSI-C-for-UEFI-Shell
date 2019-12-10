@@ -5,6 +5,12 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20191210
+* update to VS2019 Version 16.4.0 (Spectre Support)
+* intern: change configuration naming
+    * UEFIx86-64 (Torito C Library)
+    * WinNTx86-64 (Torito C Library)
+    * WinNTx86-64 (Microsoft C Library)
 ### 20191126/R149
 * Update to torito-C 20191126/R149
 ### 20191111/R146
