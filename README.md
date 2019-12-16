@@ -5,6 +5,13 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20191216/R152
+* Update to torito-C 20191126/R152
+* improve C++ global object initialization (introduced in 20181129/R116) to have full
+  ANSI C library function set available during invocation of global constructors before main()
+  https://docs.microsoft.com/en-us/cpp/c-runtime-library/reference/initterm-initterm-e?view=vs-2017
+  https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome10/welcome10.c
+* increase number of possible ATEXIT() registrations to 32 + 4 to allow 4 additional C++ destructor registrations
 ### 20191210
 * update to VS2019 Version 16.4.0 (Spectre Support)
 * intern: change configuration naming
