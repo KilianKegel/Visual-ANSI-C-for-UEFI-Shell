@@ -3,8 +3,15 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 
 ![C](CfgMgr.png)
 
+## HowTo
+https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
+
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20200204/R154
+* Update to torito-C 20200204/R154
+* adjust solution configurations
+* update copyright
 ### 20191216/R152
 * Update to torito-C 20191126/R152
 * improve C++ global object initialization (introduced in 20181129/R116) to have full
