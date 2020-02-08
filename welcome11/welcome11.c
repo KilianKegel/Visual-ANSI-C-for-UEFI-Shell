@@ -1,7 +1,7 @@
 #include <uefi.h>
 #include <stdio.h>
 
-extern char* strefierror(EFI_STATUS errcode);                           // 
+extern char* strefierror(EFI_STATUS errcode);                           // Torito C extention according to strerror()
 
 int main(int argc, char **argv) {
     EFI_SYSTEM_TABLE* SystemTable = (EFI_SYSTEM_TABLE*)(argv[-1]);      //SystemTable is passed in argv[-1]
@@ -12,6 +12,4 @@ int main(int argc, char **argv) {
     Status = SystemTable->ConOut->OutputString(SystemTable->ConOut, L"Welcome, to the jungle of \"the UEFI native API\"\r\n");    // "hello, world" on UEFI API
 
     puts(strefierror(Status));
-
-
 }
