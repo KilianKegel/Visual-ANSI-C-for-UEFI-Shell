@@ -8,6 +8,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20200208
+* add "Hello, World"-Example (https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome10/welcome11.c) 
+  using the native UEFI API ("https://uefi.org/sites/default/files/resources/UEFI_Spec_2_7.pdf#page=598")
 ### 20200204/R154
 * Update to torito-C 20200204/R154
 * adjust solution configurations

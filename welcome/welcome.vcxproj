@@ -169,7 +169,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <StructMemberAlignment>Default</StructMemberAlignment>
       <BufferSecurityCheck>false</BufferSecurityCheck>
-      <CompileAs>CompileAsC</CompileAs>
+      <CompileAs>Default</CompileAs>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <AdditionalOptions>/D_NO_CRT_STDIO_INLINE</AdditionalOptions>
       <AssemblerOutput>All</AssemblerOutput>
