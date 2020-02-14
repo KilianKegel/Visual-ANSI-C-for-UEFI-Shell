@@ -2,6 +2,27 @@
 Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-development.
 
 ![C](CfgMgr.png)
+## Projects/sample programs
+| Project   |      Description      |
+|:----------|:-------------|
+|[ARGCV](argcv)   |argument count, argument vector, command line arguments|
+|[WELCOME](welcome)   |simple `Hello, world`|
+|[WELCOME1](welcome1)   |simple `Hello, world` using `puts()`|
+|[WELCOME2](welcome2)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
+|[WELCOME3](welcome3)   |simple `Hello, world` using `fputs()` to STDERR and STDOUT each|
+|[WELCOME4](welcome4)   |simple `Hello, world` using `fwrite()` to STDERR and STDOUT each|
+|[WELCOME5](welcome5)   |simple `Hello, world` using `putc()` to STDERR and STDOUT each|
+|[WELCOME6](welcome6)   |simple `Hello, world` using `fputc()` to STDERR and STDOUT each|
+|[WELCOME7](welcome7)   |simple `Hello, world` using all possible functions to STDOUT only|
+|[WELCOME8](welcome8)   |simple `Hello, world` for KARAOKE purpose|
+|[WELCOME9](welcome9)   |demonstration of `CTRL-C`and haow to catch it in a ANSI/STANDARD C program|
+|[WELCOME10](welcome10) |demonstration *global Classes* in C++|
+|[WELCOME11](welcome11) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
+
+## Binaries
+[EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))
+[NT64/Torito Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Torito%20C%20Library))
+[NT64/MSFT Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Microsoft%20C%20Library))
 
 ## HowTo
 https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
