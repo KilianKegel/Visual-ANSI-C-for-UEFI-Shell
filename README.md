@@ -15,7 +15,7 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 |[WELCOME6](welcome6)   |simple `Hello, world` using `fputc()` to STDERR and STDOUT each|
 |[WELCOME7](welcome7)   |simple `Hello, world` using all possible functions to STDOUT only|
 |[WELCOME8](welcome8)   |simple `Hello, world` for KARAOKE purpose|
-|[WELCOME9](welcome9)   |demonstration of `CTRL-C`and haow to catch it in a ANSI/STANDARD C program|
+|[WELCOME9](welcome9)   |demonstration of `CTRL-C`and how to catch it in a ANSI/STANDARD C program|
 |[WELCOME10](welcome10) |demonstration *global Classes* in C++|
 |[WELCOME11](welcome11) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
 
