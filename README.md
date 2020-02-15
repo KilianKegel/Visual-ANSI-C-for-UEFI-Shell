@@ -6,18 +6,18 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 | Project   |      Description      |
 |:----------|:-------------|
 |[ARGCV](argcv/argcv.c)   |argument count, argument vector, command line arguments|
-|[WELCOME](welcome)   |simple `Hello, world`|
-|[WELCOME1](welcome1)   |simple `Hello, world` using `puts()`|
-|[WELCOME2](welcome2)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
-|[WELCOME3](welcome3)   |simple `Hello, world` using `fputs()` to STDERR and STDOUT each|
-|[WELCOME4](welcome4)   |simple `Hello, world` using `fwrite()` to STDERR and STDOUT each|
-|[WELCOME5](welcome5)   |simple `Hello, world` using `putc()` to STDERR and STDOUT each|
-|[WELCOME6](welcome6)   |simple `Hello, world` using `fputc()` to STDERR and STDOUT each|
-|[WELCOME7](welcome7)   |simple `Hello, world` using all possible functions to STDOUT only|
-|[WELCOME8](welcome8)   |simple `Hello, world` for KARAOKE purpose|
-|[WELCOME9](welcome9)   |demonstration of `CTRL-C`and how to catch it in a ANSI/STANDARD C program|
-|[WELCOME10](welcome10) |demonstration *global Classes* in C++|
-|[WELCOME11](welcome11) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
+|[WELCOME](welcome/welcome.c)   |simple `Hello, world`|
+|[WELCOME1](welcome1/welcome1.c)   |simple `Hello, world` using `puts()`|
+|[WELCOME2](welcome2/welcome2.c)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
+|[WELCOME3](welcome3/welcome3.c)   |simple `Hello, world` using `fputs()` to STDERR and STDOUT each|
+|[WELCOME4](welcome4/welcome4.c)   |simple `Hello, world` using `fwrite()` to STDERR and STDOUT each|
+|[WELCOME5](welcome5/welcome5.c)   |simple `Hello, world` using `putc()` to STDERR and STDOUT each|
+|[WELCOME6](welcome6/welcome6.c)   |simple `Hello, world` using `fputc()` to STDERR and STDOUT each|
+|[WELCOME7](welcome7/welcome7.c)   |simple `Hello, world` using all possible functions to STDOUT only|
+|[WELCOME8](welcome8/welcome8.c)   |simple `Hello, world` for KARAOKE purpose|
+|[WELCOME9](welcome9/welcome9.c)   |demonstration of `CTRL-C`and how to catch it in a ANSI/STANDARD C program|
+|[WELCOME10](welcome10/welcome10.c) |demonstration *global Classes* in C++|
+|[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
 
 ## Binaries
 [EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
