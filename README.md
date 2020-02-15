@@ -5,7 +5,7 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 ## Projects/sample programs
 | Project   |      Description      |
 |:----------|:-------------|
-|[ARGCV](argcv)   |argument count, argument vector, command line arguments|
+|[ARGCV](argcv/argcv.c)   |argument count, argument vector, command line arguments|
 |[WELCOME](welcome)   |simple `Hello, world`|
 |[WELCOME1](welcome1)   |simple `Hello, world` using `puts()`|
 |[WELCOME2](welcome2)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
