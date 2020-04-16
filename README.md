@@ -18,6 +18,7 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 |[WELCOME9](welcome9/welcome9.c)   |demonstration of `CTRL-C`and how to catch it in a ANSI/STANDARD C program|
 |[WELCOME10](welcome10/welcome10.cpp) |demonstration *global Classes* in C++|
 |[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
+|[WELCOME12](welcome12/welcome12.c) |demonstration of accuracy of TSC based 'TIMR.H' functions|
 
 ## Binaries
 [EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
@@ -29,9 +30,14 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20200416/R159
+* Update to torito-C 20200416/R159
+* demonstrate accuracy of TSC based 'TIME.H' finctions
+  https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome12/welcome12.c
+
 ### 20200208
-* add "Hello, World"-Example (https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome11/welcome11.c) 
-  using the native UEFI API ("https://uefi.org/sites/default/files/resources/UEFI_Spec_2_7.pdf#page=598")
+* add "Hello, World" (https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome11/welcome11.c) 
+  using the native [UEFI API]("https://uefi.org/sites/default/files/resources/UEFI_Spec_2_7.pdf#page=598")
 ### 20200204/R154
 * Update to torito-C 20200204/R154
 * adjust solution configurations

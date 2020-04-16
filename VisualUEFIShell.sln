@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome10", "welcome10\welc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome11", "welcome11\welcome11.vcxproj", "{6E289CED-4826-4720-A243-50C6621CD8DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome12", "welcome12\welcome12.vcxproj", "{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		UEFIx86-64 (Torito C Library)|x64 = UEFIx86-64 (Torito C Library)|x64
@@ -112,6 +114,10 @@ Global
 		{6E289CED-4826-4720-A243-50C6621CD8DF}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
 		{6E289CED-4826-4720-A243-50C6621CD8DF}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
 		{6E289CED-4826-4720-A243-50C6621CD8DF}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
