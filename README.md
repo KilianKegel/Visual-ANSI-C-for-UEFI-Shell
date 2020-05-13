@@ -32,7 +32,7 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 https://github.com/KilianKegel/torito-C-Library#revision-history
 ### 20200416/R159
 * Update to torito-C 20200416/R159
-* demonstrate accuracy of TSC based 'TIME.H' finctions
+* demonstrate accuracy of TSC based 'TIME.H' functions
   https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/blob/master/welcome12/welcome12.c
 
 ### 20200208
