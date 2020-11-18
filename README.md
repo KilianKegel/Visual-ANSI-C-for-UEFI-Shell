@@ -30,6 +30,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20201118
+* add Linux support alpha 0.51
+
 ### 20200416/R159
 * Update to torito-C 20200416/R159
 * demonstrate accuracy of TSC based 'TIME.H' functions
