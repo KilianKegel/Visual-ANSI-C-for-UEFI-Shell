@@ -298,7 +298,7 @@
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <FixedBaseAddress>false</FixedBaseAddress>
       <DataExecutionPrevention>false</DataExecutionPrevention>
-      <AdditionalDependencies>$(SolutionDir)libraries\CdeLib.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)libraries\toritoC64R.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AllowIsolation>true</AllowIsolation>
       <EnableUAC>false</EnableUAC>

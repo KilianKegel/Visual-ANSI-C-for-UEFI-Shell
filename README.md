@@ -29,6 +29,9 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
 # Revision history
+### 20201229/1
+* fix command line parameter and count n/a
+
 https://github.com/KilianKegel/torito-C-Library#revision-history
 ### 20201118
 * add Linux support alpha 0.51
