@@ -29,6 +29,10 @@ Getting started with Visual Studio 2019 for UEFI Shell and ANSI C cross-developm
 https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
 # Revision history
+### 20210116, branch "Linux"
+* implemet CTRL-C support for LINUX
+* NOTE: This requires a new bugfix in the Linux linker ld that is temporarily implemeted here: https://github.com/KilianKegel/binutils-for-Torito-C-Library
+
 ### 20201229/1
 * fix command line parameter and count n/a
 
