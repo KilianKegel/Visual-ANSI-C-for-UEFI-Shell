@@ -30,7 +30,7 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
-##20210808/R164
+### 20210808/R164
 * Update to torito-C 20210808/R164
 ### 20200416/R159
 * Update to torito-C 20200416/R159
