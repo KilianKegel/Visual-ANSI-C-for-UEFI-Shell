@@ -4,7 +4,9 @@ int main(int argc, char **argv) {
 
     int i = 0;
     char string[] = {"Welcome, to the jungle\n"};
-    
+
+    printf("simple Hello, world using putc() to stdout and stderr:\n");
+
     do {
         putc(string[i], stdout);    // surprise, surpise: putc() does NOT write a character necessarily to STDOUT,
                                     // but it can be forced to do so...

@@ -5,6 +5,8 @@ int main(int argc, char **argv) {
     int i = 0;
     char string[] = { "Welcome, to the jungle\n" };
 
+    printf("simple Hello, world using fputc() to stdout and stderr:\n");
+
     do {
         fputc(string[i], stdout);   // SURPRISE, SURPRISE: fputc() DOES write a character necessarily to a given FILE*,
 

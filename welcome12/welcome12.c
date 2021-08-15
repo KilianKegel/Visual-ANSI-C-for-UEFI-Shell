@@ -28,6 +28,8 @@ int main(int argc, char** argv) {
     int rtcsec, rtcmin, rtchour, rtcmday, rtcmon, rtcyear;
     unsigned long long TSCTsc, RTCTsc;
 
+    printf("demonstration of accuracy of TSC based 'TIMR.H' functions\n");
+    printf("NOTE: This program will crash in Windows, because of direct RTC access.\n");
     printf("%ls -> %X, %d.%d\n",
         SystemTable->FirmwareVendor,
         SystemTable->FirmwareRevision,
@@ -59,8 +61,8 @@ int main(int argc, char** argv) {
                 ;
             RTCTsc = __rdtsc();                         // get time diff RTCTsc vs. TSCTsc
 
-            // do printf() while in update cycle
-            printf("TSCTime: %d/%02d/%02d %02d:%02d,%02d vs. RTCTime: %04d/%02d/%02d %02d:%02d,%02d -> %5d sec, %lld, secdiff %d\n",
+                                                        // do printf() while in update cycle
+            printf("TSCTime: %d/%02d/%02d %02d:%02d,%02d vs. RTCTime: %04d/%02d/%02d %02d:%02d,%02d -> %02d:%02d:%02d sec, %lld, secdiff %d\n",
                 pTm->tm_year + 1900,
                 pTm->tm_mon + 1,
                 pTm->tm_mday,
@@ -73,7 +75,9 @@ int main(int argc, char** argv) {
                 rtchour,
                 rtcmin,
                 rtcsec,
-                ++num,
+                ++num / 3600,
+                (num % 3600) / 60,
+                (num % 3600) % 60,
                 RTCTsc - TSCTsc,
                 rtcsec - pTm->tm_sec
             );

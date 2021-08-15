@@ -5,6 +5,8 @@ int main(int argc, char **argv) {
     size_t lenght = sizeof(STRING);
     char string[] = {STRING};
     
+    printf("simple Hello, world using fwrite() to stdout and stderr:\n");
+
     fwrite(string, lenght, 1, stdout);      //fwrite(to stdout) - file write to STDOUT is identical to write to a real file -- that equality was introduced in UNIX/C
     fwrite(string, lenght, 1, stderr);      //fwrite(to stderr) - file write to STDERR is identical to write to a real file -- that equality was introduced in UNIX/C
 
