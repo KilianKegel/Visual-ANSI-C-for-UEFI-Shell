@@ -30,6 +30,8 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20210820/R166
+* Update to torito-C 20210820/R166
 ### 20210815/R165
 * Update to torito-C 20210815/R165
 * improve welcome12 for time / drift measurement
