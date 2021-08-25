@@ -19,7 +19,6 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 |[WELCOME10](welcome10/welcome10.cpp) |demonstration *global Classes* in C++|
 |[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
 |[WELCOME12](welcome12/welcome12.c) |demonstration of accuracy of TSC based 'TIMR.H' functions|
-
 ## Binaries
 [EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
 [NT64/Torito Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Torito%20C%20Library))<br>
