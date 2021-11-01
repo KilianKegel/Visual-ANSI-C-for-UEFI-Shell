@@ -29,6 +29,8 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20211101
+* update to **TORO C Library** *20211031*
 ### 20211017
 * update to toroC64.lib with `_cdeCRT0WinNT()` CRT0 for Windows
 ### 20210825
