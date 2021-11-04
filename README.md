@@ -1,4 +1,5 @@
 # Visual ANSI C for UEFI Shell
+![visualUefi](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell/blob/master/visualUefiWide.png)
 Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-development.
 
 ![C](CfgMgr.png)
