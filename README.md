@@ -7,7 +7,7 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 | Project   |      Description      |
 |:----------|:-------------|
 |[ARGCV](argcv/argcv.c)   |argument count, argument vector, command line arguments|
-|[WARGCV](argcv/argcv.c)   |argument count, argument vector, command line arguments with `wmain()`|
+|[WARGCV](wargcv/wargcv.c)   |argument count, argument vector, command line arguments with `wmain()`|
 |[WELCOME](welcome/welcome.c)   |simple `Hello, world`|
 |[WELCOME1](welcome1/welcome1.c)   |simple `Hello, world` using `puts()`|
 |[WELCOME2](welcome2/welcome2.c)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
