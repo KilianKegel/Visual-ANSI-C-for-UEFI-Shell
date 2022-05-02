@@ -31,6 +31,8 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20220501
+* update to **TORO C Library** *20220501*
 ### 20211107
 * add wmain() support<br>
   ATTENTION: The presence of main() is not detected at build time anymore, but at runtime.
