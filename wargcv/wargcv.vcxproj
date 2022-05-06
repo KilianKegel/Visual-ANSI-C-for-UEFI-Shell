@@ -114,7 +114,7 @@
       <AdditionalDependencies>$(SolutionDir)lib\toroC64.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>..\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <EntryPointSymbol>_cdeCRT0WinNT</EntryPointSymbol>
+      <EntryPointSymbol>_cdeCRT0WinNTW</EntryPointSymbol>
       <GenerateMapFile>true</GenerateMapFile>
       <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
       <AdditionalOptions>/IGNORE:4078 kernel32.lib %(AdditionalOptions)</AdditionalOptions>
@@ -202,7 +202,7 @@
       </EnableCOMDATFolding>
       <OptimizeReferences>
       </OptimizeReferences>
-      <EntryPointSymbol>_cdeCRT0UefiShell</EntryPointSymbol>
+      <EntryPointSymbol>_cdeCRT0UefiShellW</EntryPointSymbol>
       <RandomizedBaseAddress>
       </RandomizedBaseAddress>
       <FixedBaseAddress>
