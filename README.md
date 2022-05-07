@@ -21,6 +21,8 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 |[WELCOME10](welcome10/welcome10.cpp) |demonstration *global Classes* in C++|
 |[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
 |[WELCOME12](welcome12/welcome12.c) |demonstration of accuracy of TSC based 'TIMR.H' functions|
+|[WELCOME13](welcome13/welcome13.c) |demonstration of *John McNamara's* [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter#libxlsxwriter)|
+
 ## Binaries
 [EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
 [NT64/Torito Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Torito%20C%20Library))<br>
@@ -31,6 +33,8 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20220507
+* add support and demo for John McNamara's Microsoft Excel writer library [*libxlsxwriter*](https://github.com/jmcnamara/libxlsxwriter#libxlsxwriter)
 ### 20220501
 * update to **TORO C Library** *20220501*
 ### 20211107

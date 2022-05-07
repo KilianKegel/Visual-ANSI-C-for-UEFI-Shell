@@ -1,3 +1,9 @@
 [submodule "lib"]
 	path = lib
 	url = https://github.com/KilianKegel/toro-C-Library.git
+[submodule "welcome13/Visual-LIBXLSXWRITER-for-UEFI-Shell"]
+	path = welcome13/Visual-LIBXLSXWRITER-for-UEFI-Shell
+	url = https://github.com/KilianKegel/Visual-LIBXLSXWRITER-for-UEFI-Shell.git
+[submodule "welcome13/Visual-LIBWIN32-for-UEFI"]
+	path = welcome13/Visual-LIBWIN32-for-UEFI
+	url = https://github.com/KilianKegel/Visual-LIBWIN32-for-UEFI.git
