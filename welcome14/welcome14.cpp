@@ -217,7 +217,7 @@ int main(int argc, char** argv)
 					wcsARROW_UP[2] = { ARROW_UP ,'\0' }, 
 					wcsARROW_RIGHT[2] = { ARROW_RIGHT ,'\0' }, 
 					wcsARROW_DOWN[2] = { ARROW_DOWN ,'\0'};
-			FullScreen.TextPrint({  1, FullScreen.ScrDim.Y - 1 },EFI_BACKGROUND_BLUE|EFI_WHITE, L"ALT:Menu    ENTER:Select   ESC:Return   %s%s%s%s:Navigate", wcsARROW_LEFT, wcsARROW_RIGHT, wcsARROW_UP, wcsARROW_DOWN);
+			FullScreen.TextPrint({  1, FullScreen.ScrDim.Y - 1 },EFI_BACKGROUND_BLUE|EFI_WHITE, L"F10:Menu    ENTER:Select   ESC:Return   %s%s%s%s:Navigate", wcsARROW_LEFT, wcsARROW_RIGHT, wcsARROW_UP, wcsARROW_DOWN);
 		}
 
 		//
@@ -339,7 +339,7 @@ int main(int argc, char** argv)
 					key = NO_KEY;
 					break;
 				case MENU_DFLT:
-					if (KEY_ALT == key)
+					if (KEY_F10 == key)
 						state = MENU_ENTER_ACTIVATION,
 						key = NO_KEY;
 					if (true == gHexView)

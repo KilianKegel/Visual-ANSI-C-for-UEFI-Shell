@@ -8,7 +8,10 @@
 #include "DPRINTF.H"
 #include "base_t.h"
 
-enum TEXT_KEY { NO_KEY, KEY_ALT, KEY_ESC, KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN, KEY_ENTER };
+enum TEXT_KEY {
+	NO_KEY, KEY_ALT, KEY_ESC, KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN, KEY_ENTER,
+	KEY_F1, KEY_F2, KEY_F3, KEY_F4, KEY_F5, KEY_F6, KEY_F7, KEY_F8, KEY_F9, KEY_F10, KEY_F11, KEY_F12
+};
 
 class CTextWindow : public CUefiBase {
 public:

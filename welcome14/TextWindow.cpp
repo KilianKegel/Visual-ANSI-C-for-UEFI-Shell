@@ -411,6 +411,8 @@ TEXT_KEY CTextWindow::TextGetKey(void) {
 		&& ((KeyData.KeyState.KeyShiftState == (EFI_SHIFT_STATE_VALID | EFI_LEFT_ALT_PRESSED)) /*left alt*/
 			|| (KeyData.KeyState.KeyShiftState == (EFI_SHIFT_STATE_VALID | EFI_RIGHT_ALT_PRESSED)) /*ALT-GR*/))
 		key = KEY_ALT;
+	if (SCAN_F10 == KeyData.Key.ScanCode)
+		key = KEY_F10;
 	if (SCAN_ESC == KeyData.Key.ScanCode)
 		key = KEY_ESC;
 	if (SCAN_RIGHT == KeyData.Key.ScanCode)

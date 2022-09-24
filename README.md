@@ -34,6 +34,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20220924
+* change menu activation key (formerly ALT) to F10  for "C++ text UI/UX" sample program WELCOME14
+  NOTE: ALT-key is not supported on all platforms https://www.youtube.com/watch?v=gMwCKA6SQrk
 ### 20220607
 * demonstration of C++ text UI/UX design for UEFI Shell https://www.youtube.com/watch?v=gMwCKA6SQrk
 ### 20220507
