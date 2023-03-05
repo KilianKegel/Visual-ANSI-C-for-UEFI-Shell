@@ -39,5 +39,7 @@ int main() {
     /* Insert the chart into the worksheet. */
     worksheet_insert_chart(worksheet, CELL("C1"), chart);
 
+    printf("MS Excel file \"chart_line.xlsx\"\n");
+
     return workbook_close(workbook);
 }
