@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 //https://docs.microsoft.com/en-us/cpp/c-language/using-wmain?view=msvc-160
 
 int wmain(int argc, wchar_t** argv) {

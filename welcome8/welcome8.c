@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 #define TTYSIZE 80
 
 char welcomelyrics[] = {

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main(int argc, char **argv) {
     printf("simple Hello, world using fprintf():\n");
     fprintf(stdout, "Welcome, to the jungle - by fprintf() to stdout\n");    //fprintf(stdout,...) - file print formatted to STDOUT is identical to printf()

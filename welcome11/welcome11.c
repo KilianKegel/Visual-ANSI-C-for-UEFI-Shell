@@ -1,6 +1,8 @@
 #include <uefi.h>
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 extern char* _strefierror(EFI_STATUS errcode);                           // Torito C extention according to strerror()
 
 int main(int argc, char **argv) {

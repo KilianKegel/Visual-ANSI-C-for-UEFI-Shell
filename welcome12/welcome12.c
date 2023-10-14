@@ -5,6 +5,8 @@
 #include <uefi.h>
 #include <protocol\shell.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int rdrtc(int i) {
     outp(0x70, i);
     return inp(0x71);

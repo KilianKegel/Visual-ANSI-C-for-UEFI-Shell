@@ -13,6 +13,8 @@
 
 #include "xlsxwriter.h"
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main() {
 
     lxw_workbook* workbook = workbook_new("chart_line.xlsx");
@@ -24,7 +26,7 @@ int main() {
     worksheet_write_number(worksheet, 0, 0, 10, NULL);
     worksheet_write_number(worksheet, 1, 0, 40, NULL);
     worksheet_write_number(worksheet, 2, 0, 50, NULL);
-    worksheet_write_number(worksheet, 3, 0, 20, NULL);
+    worksheet_write_number(worksheet, 3, 0, 00, NULL);  // test for EXCEL 2016 Bug, fixed with toro C Library ver 20231014
     worksheet_write_number(worksheet, 4, 0, 10, NULL);
     worksheet_write_number(worksheet, 5, 0, 50, NULL);
 

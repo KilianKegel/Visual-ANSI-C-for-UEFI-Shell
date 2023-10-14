@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main(int argc, char **argv) {
     printf("simple Hello, world using fputs():\n");
     fputs("Welcome, to the jungle - by fputs() to stdout\n",stdout);       //fputs(stdout,...) - file put string to STDOUT is identical to puts()

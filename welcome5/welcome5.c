@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main(int argc, char **argv) {
 
     int i = 0;
@@ -14,10 +16,8 @@ int main(int argc, char **argv) {
                                     // toritoc's is compatible to LIBCMT.LIB
     }while(string[i++]);    // do as long as the string termination ZERO '\0' not appeares AND advance i by 1
 
-    // HOMEWORK:
     // 1. Please notify the funny output
     // 2. redirect the output of stdout to a file
     // 3. Please notify the funny output
-    // 4. Explain to yourself.
     return 0;
 }

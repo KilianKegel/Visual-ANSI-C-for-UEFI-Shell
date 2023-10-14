@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main(int argc, char **argv) {
 
     int i = 0;
@@ -14,11 +16,8 @@ int main(int argc, char **argv) {
 
     } while (string[i++]);  // do as long as the string termination ZERO '\0' not appeares AND advance i by 1
 
-    // HOMEWORK:
     // 1. Please notify the funny output
-    // 2. If you wonder, why fputc(), putc(), fputs() and puts() does not behave orthogonal, keep in mind,
-    //    that the process of standardization of the language C was a longsome process for years before ANSI C 
-    //    was finished.
-    //    This are some artifacts.
+    // 2. redirect the output of stdout to a file
+    // 3. Please notify the funny output
     return 0;
 }

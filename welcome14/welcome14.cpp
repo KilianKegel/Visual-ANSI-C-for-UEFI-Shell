@@ -9,6 +9,8 @@
 #include "DPRINTF.H"
 #include "base_t.h"
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 #define ELC(x) (sizeof(x)/sizeof(x[0]))
 
 extern "C" EFI_SYSTEM_TABLE * gSystemTable;

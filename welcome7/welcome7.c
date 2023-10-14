@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+
 int main(int argc, char **argv) {
     size_t size = sizeof("Welcome, to the jungle\n") - 1;
 
@@ -14,6 +16,5 @@ int main(int argc, char **argv) {
 
     return 0;
 
-    // HOMEWORK:
     // 1. What is different with puts()?
 }

@@ -34,6 +34,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20231014
+* update to **TORO C Library** *20231014*
+* improve **welcome13** sample to demonstrate *EXCEL 2016* bugfix
 ### 20230909
 * update to **TORO C Library** *20230909*
 ### 20230410
