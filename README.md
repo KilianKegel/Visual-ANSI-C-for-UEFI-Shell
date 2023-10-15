@@ -17,7 +17,7 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 |[WELCOME6](welcome6/welcome6.c)   |simple `Hello, world` using `fputc()` to STDERR and STDOUT each|
 |[WELCOME7](welcome7/welcome7.c)   |simple `Hello, world` using all possible functions to STDOUT only|
 |[WELCOME8](welcome8/welcome8.c)   |simple `Hello, world` for KARAOKE purpose|
-|[WELCOME9](welcome9/welcome9.c)   |demonstration of `CTRL-C`and how to catch it in a ANSI/STANDARD C program|
+|[WELCOME9](welcome9/welcome9.c)   |demonstration of `CTRL-C`and how to catch it in an ANSI/STANDARD C program|
 |[WELCOME10](welcome10/welcome10.cpp) |demonstration *global Classes* in C++|
 |[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
 |[WELCOME12](welcome12/welcome12.c) |demonstration of accuracy of TSC based 'TIMR.H' functions|
