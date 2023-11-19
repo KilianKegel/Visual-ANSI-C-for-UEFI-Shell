@@ -34,6 +34,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20231119
+* update to **TORO C Library 20231118**
+    * add ACPI timer based synchronization
 ### 20231014
 * update to **TORO C Library** *20231014*
 * improve **welcome13** sample to demonstrate *EXCEL 2016* bugfix
