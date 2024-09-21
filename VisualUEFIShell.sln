@@ -36,8 +36,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wargcv", "wargcv\wargcv.vcxproj", "{859545E0-7092-414E-8E1C-23FDB958EC15}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome13", "welcome13\welcome13.vcxproj", "{A199E4F9-95A9-4735-B28B-4A8AF14969A2}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome14", "welcome14\welcome14.vcxproj", "{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}"
@@ -129,12 +127,6 @@ Global
 		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
 		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
 		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.WinNTx86-64 (Torito C Library)|x64.ActiveCfg = WinNTx86-64 (Torito C Library)|x64
-		{859545E0-7092-414E-8E1C-23FDB958EC15}.WinNTx86-64 (Torito C Library)|x64.Build.0 = WinNTx86-64 (Torito C Library)|x64
 		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64 (Torito C Library)|x64.ActiveCfg = UEFIx86-64 (Torito C Library)|x64
 		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64 (Torito C Library)|x64.Build.0 = UEFIx86-64 (Torito C Library)|x64
 		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
