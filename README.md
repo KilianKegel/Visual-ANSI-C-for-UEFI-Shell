@@ -7,7 +7,6 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 | Project   |      Description      |
 |:----------|:-------------|
 |[ARGCV](argcv/argcv.c)   |argument count, argument vector, command line arguments|
-|[WARGCV](wargcv/wargcv.c)   |argument count, argument vector, command line arguments with `wmain()`|
 |[WELCOME](welcome/welcome.c)   |simple `Hello, world`|
 |[WELCOME1](welcome1/welcome1.c)   |simple `Hello, world` using `puts()`|
 |[WELCOME2](welcome2/welcome2.c)   |simple `Hello, world` using `fprintf()` to STDERR and STDOUT each|
@@ -34,6 +33,10 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20240921
+* update to [**TORO C Library 20240908, v0.8.6 Build 187**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20240908-v086-build-187)
+* remove `WARGCV` temorarily. Non-Standart-`wmain()` is currently not supported.
+* improve UEFI target development support: [**MYUSBSHARE**](https://github.com/KilianKegel/Howto-setup-a-UEFI-Development-PC/blob/master/envedit.png)
 ### 20231119
 * update to **TORO C Library 20231118**
     * add ACPI timer based synchronization

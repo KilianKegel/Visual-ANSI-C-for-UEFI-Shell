@@ -245,6 +245,12 @@
     <PreBuildEvent>
       <Message>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release &amp; cd $(ProjectDir)Visual-LIBWIN32-for-UEFI &amp; msbuild LibWin324UEFI.sln</Message>
     </PreBuildEvent>
+    <PostBuildEvent>
+      <Command>IF DEFINED MYUSBSHARE copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="welcome13.c" />
