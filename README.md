@@ -18,10 +18,11 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 |[WELCOME8](welcome8/welcome8.c)   |simple `Hello, world` for KARAOKE purpose|
 |[WELCOME9](welcome9/welcome9.c)   |demonstration of `CTRL-C`and how to catch it in an ANSI/STANDARD C program|
 |[WELCOME10](welcome10/welcome10.cpp) |demonstration *global Classes* in C++|
-|[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` using UEFI API `SystemTable->ConOut->OutputString(SystemTable->ConOut`|
+|[WELCOME11](welcome11/welcome11.c) |simple `Hello, world` and timer event using UEFI API|
 |[WELCOME12](welcome12/welcome12.c) |demonstration of accuracy of TSC based 'TIMR.H' functions|
 |[WELCOME13](welcome13/welcome13.c) |demonstration of *John McNamara's* [libxlsxwriter](https://github.com/jmcnamara/libxlsxwriter#libxlsxwriter)|
 |[WELCOME14](welcome14/welcome14.cpp) |demonstration of C++ text UI/UX design for UEFI Shell https://www.youtube.com/watch?v=gMwCKA6SQrk|
+|[WELCOME15](welcome15/welcome15.c) |demonstration ANSI C `system()` to run shell commands directly|
 
 ## Binaries
 [EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
@@ -33,6 +34,10 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20250105
+* update to [**TORO C Library 20241222, v0.8.8 Build 227**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20241222-v088-build-227)
+* improve **welcome11** sample to demonstrate UEFI API timer callback
+* introduce **welcome15** sample to demonstrate `system()` to run shell commands directly
 ### 20240921
 * update to [**TORO C Library 20240908, v0.8.6 Build 187**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20240908-v086-build-187)
 * remove `WARGCV` temorarily. Non-Standart-`wmain()` is currently not supported.
