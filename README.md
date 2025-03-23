@@ -24,16 +24,14 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 |[WELCOME14](welcome14/welcome14.cpp) |demonstration of C++ text UI/UX design for UEFI Shell https://www.youtube.com/watch?v=gMwCKA6SQrk|
 |[WELCOME15](welcome15/welcome15.c) |demonstration ANSI C `system()` to run shell commands directly|
 
-## Binaries
-[EFI Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/UEFIx86-64%20(Torito%20C%20Library))<br>
-[NT64/Torito Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Torito%20C%20Library))<br>
-[NT64/MSFT Binaries](https://github.com/KilianKegel/Visual-ANSI-C-for-UEFI-Shell/tree/master/x64/WinNTx86-64%20(Microsoft%20C%20Library))<br>
-
 ## HowTo
 https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20250323 LLVM/Clang support
+* update to [**TORO C Library 20250322, v0.9.1 Build 267**]
+* **add LLVM/Clang support**
 ### 20250105
 * update to [**TORO C Library 20241222, v0.8.8 Build 227**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20241222-v088-build-227)
 * improve **welcome11** sample to demonstrate UEFI API timer callback

@@ -8,6 +8,7 @@
 #include "TextWindow.hpp"
 #include "DPRINTF.H"
 #include "base_t.h"
+#include <intrin.h>
 
 //Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
 
@@ -15,13 +16,6 @@
 
 extern "C" EFI_SYSTEM_TABLE * gSystemTable;
 extern "C" EFI_HANDLE gImageHandle;
-
-extern "C" int _outp(unsigned short port, int data_byte);
-extern "C" unsigned short _outpw(unsigned short port, unsigned short data_word);
-extern "C" unsigned long _outpd(unsigned short port, unsigned long data_word);
-extern "C" int _inp(unsigned short port);
-extern "C" unsigned short _inpw(unsigned short port);
-extern "C" unsigned long _inpd(unsigned short port);
 
 extern bool gfKbdDbg;
 
@@ -32,9 +26,9 @@ extern bool gfKbdDbg;
 #define FORMATW_ADDR L"%02X: %02X%s"
 #define FORMATWOADDR L"%s%02X%s"
 
-#define RTCRD(idx) (_outp(0xED,0x55),_outp(0xED,0x55),_outp(0x70,idx),_outp(0xED,0x55),_outp(0xED,0x55),_inp(0x71))
+#define RTCRD(idx) (__outbyte(0xED,0x55),__outbyte(0xED,0x55),__outbyte(0x70,idx),__outbyte(0xED,0x55),__outbyte(0xED,0x55),__inbyte(0x71))
 
-#define IODELAY _outp(0xED, 0x55)
+#define IODELAY __outbyte(0xED, 0x55)
 
 int rtcrd(int idx) 
 {
@@ -46,16 +40,16 @@ int rtcrd(int idx)
 		//
 		// read UIP- update in progress first
 		//
-		_outp(0x70, 0xA); 
+		__outbyte(0x70, 0xA); 
 		IODELAY;
 
-		UIP = 0x80 == (0x80 & _inp(0x71));
+		UIP = 0x80 == (0x80 & __inbyte(0x71));
 		IODELAY;
 
-		_outp(0x70, idx); 
+		__outbyte(0x70, idx);
 		IODELAY;
 
-		nRet = _inp(0x71); IODELAY;
+		nRet = __inbyte(0x71); IODELAY;
 
 	} while (1 == UIP);
 

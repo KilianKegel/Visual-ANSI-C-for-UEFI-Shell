@@ -185,7 +185,7 @@ int CTextWindow::TextVPrint(const wchar_t* wcsFmt, va_list ap)
 
 	Status = gSystemTable->ConOut->OutputString(				// write to the console
 		gSystemTable->ConOut,
-		pwcs
+		(CHAR16*)pwcs
 	);
 
 	//todo: consider Status
