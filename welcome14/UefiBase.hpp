@@ -3,7 +3,7 @@
 
 #include <uefi.h>
 #include <stdint.h>
-#include "DPRINTF.H"
+#include "DPRINTF.h"
 #include "base_t.h"
 
 class CUefiBase {

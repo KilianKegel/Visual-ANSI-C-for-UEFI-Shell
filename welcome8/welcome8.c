@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
 
 #define TTYSIZE 80
 
@@ -52,27 +52,33 @@ char welcomelyrics[] = {
     "\r\n"
 };
 
-char *centerstring(char *string)
+char* centerstring(char* string)
 {
     static char buffer[TTYSIZE];
     size_t length = strlen(string);
 
-        memset(buffer,' ',TTYSIZE);
-        strcpy(&buffer[TTYSIZE - 1 - strlen("\n")],"\n");
+    memset(buffer, ' ', TTYSIZE);                           // Fill the buffer with spaces
+    strcpy(&buffer[TTYSIZE - 1 - strlen("\n")], "\n");      // Add a newline at the end
 
-        strncpy(&buffer[(TTYSIZE / 2) - length / 2], string, length);
+    // Center the string within the buffer
+    strncpy(&buffer[(TTYSIZE / 2) - length / 2], string, length);
 
-    return &buffer[0];
+    return buffer;
 }
 
-int main(int argc, char **argv){
-    char *pLine;
-    
-    pLine = strtok (welcomelyrics, "\n");
+int main(int argc, char** argv) {
+    char* pLine;
 
-    while (pLine != NULL){
-        printf ("%s" , centerstring(pLine));
-        pLine = strtok (&pLine[strlen(pLine) + 1],"\n");
+    // Tokenize the lyrics by newline characters
+    pLine = strtok(welcomelyrics, "\n");
+
+    while (pLine != NULL) {
+        printf("%s", centerstring(pLine));                  // Print each line centered
+        pLine = strtok(&pLine[strlen(pLine) + 1], "\n");    // Move to the next line
     }
-    printf ("\n");  
+    printf("\n");
+
+    return 0;
 }
+
+

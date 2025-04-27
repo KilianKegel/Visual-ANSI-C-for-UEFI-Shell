@@ -1,23 +1,22 @@
 #include <stdio.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
 
     int i = 0;
     char string[] = { "Welcome, to the jungle\n" };
 
-    printf("simple Hello, world using fputc() to stdout and stderr:\n");
+    printf("Simple Hello, World using fputc() to stdout and stderr:\n");
 
     do {
-        fputc(string[i], stdout);   // SURPRISE, SURPRISE: fputc() DOES write a character necessarily to a given FILE*,
+        fputc(string[i], stdout);   // fputc() writes a character to the specified FILE* (stdout in this case).
+        fputc(string[i], stderr);   // fputc() writes a character to the specified FILE* (stderr in this case).
+    } while (string[i++]);          // Continue until the null terminator '\0' is encountered, incrementing i by 1.
 
-        fputc(string[i], stderr);   // toritoc's is compatible to LIBCMT.LIB, that means fputc() is same as putc();
-
-    } while (string[i++]);  // do as long as the string termination ZERO '\0' not appeares AND advance i by 1
-
-    // 1. Please notify the funny output
-    // 2. redirect the output of stdout to a file
-    // 3. Please notify the funny output
+    // 1. Observe the output behavior.
+    // 2. Redirect the output of stdout to a file.
+    // 3. Observe the output behavior again.
     return 0;
 }
+

@@ -2,14 +2,13 @@
 #include <signal.h>
 #include <time.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
 
 void myCtrlCHandler (int signum) {
     printf("You pressed ctrl+c, but I don't care\n");
 }
 
 int main() {
-    
     clock_t clk;
 
     signal(SIGINT, myCtrlCHandler);
@@ -22,6 +21,6 @@ int main() {
         while (clk > clock())
             ;
     }
+
+    return 0;
 }
-
-

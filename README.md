@@ -29,6 +29,8 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20250427
+* LLVM related improvements and bugfixes
 ### 20250323 LLVM/Clang support
 * update to [**TORO C Library 20250322, v0.9.1 Build 267**]
 * **add LLVM/Clang support**

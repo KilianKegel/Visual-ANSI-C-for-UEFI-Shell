@@ -1,20 +1,21 @@
 #include <stdio.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
     size_t size = sizeof("Welcome, to the jungle\n") - 1;
 
-    printf("simple Hello, world using printf(), fprintf(), fwrite(), puts() and fputs() to stdout:\n");
+    printf("Simple Hello, World using printf(), fprintf(), fwrite(), puts() and fputs() to stdout:\n");
 
-    printf  (/*stdout*/     "Welcome, to the jungle\n");                    // stdout is implied
-    fprintf (stdout,        "Welcome, to the jungle\n");                    // stdout is enforced, string formatting can be done, but not needed here
-    fwrite  (               "Welcome, to the jungle\n",size,1,stdout);      // stdout is enforced, strings are fixed
-    puts    (               "Welcome, to the jungle\n");
-    fputs   (               "Welcome, to the jungle\n",stdout);
-    fwrite  (               "###########################\n", 8, 1, stdout); // stdout is enforced, strings are fixed
+    printf(/*stdout*/     "Welcome, to the jungle\n");          // stdout is implied, newline must be explicitly included
+    fprintf(stdout, "Welcome, to the jungle\n");                // stdout is enforced, newline must be explicitly included
+    fwrite("Welcome, to the jungle\n", size, 1, stdout);        // stdout is enforced, writes raw data, no newline added
+    puts("Welcome, to the jungle\n");                           // Automatically appends a newline
+    fputs("Welcome, to the jungle\n", stdout);                  // stdout is enforced, newline must be explicitly included
+    fwrite("###########################\n", 8, 1, stdout);      // stdout is enforced, writes raw data, no newline added
 
     return 0;
 
     // 1. What is different with puts()?
+    //    - puts() automatically appends a newline to the string.
 }

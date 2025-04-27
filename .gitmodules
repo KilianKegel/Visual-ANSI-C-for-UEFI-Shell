@@ -7,3 +7,6 @@
 [submodule "welcome13/Visual-LIBWIN32-for-UEFI"]
 	path = welcome13/Visual-LIBWIN32-for-UEFI
 	url = https://github.com/KilianKegel/Visual-LIBWIN32-for-UEFI.git
+[submodule "includes/MdePkg"]
+	path = includes/MdePkg
+	url = https://github.com/KilianKegel/MdePkgInc

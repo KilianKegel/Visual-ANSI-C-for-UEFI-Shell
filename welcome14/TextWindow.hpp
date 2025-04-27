@@ -5,7 +5,7 @@
 #include <uefi.h>
 #include "UefiBase.hpp"
 #include "TextWindow.hpp"
-#include "DPRINTF.H"
+#include "DPRINTF.h"
 #include "base_t.h"
 
 enum TEXT_KEY {
