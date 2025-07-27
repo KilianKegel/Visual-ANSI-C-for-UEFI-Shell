@@ -1,6 +1,8 @@
-# Visual ANSI C for UEFI Shell
+# Visual ANSI C for UEFI Shell <img src="https://llvm.org/img/LLVMWyvernSmall.png"   width="100" height="100">with LLVM/CLANG support)
 ![visualUefi](https://github.com/KilianKegel/Visual-Studio-for-UEFI-Shell/blob/master/visualUefiWide.png)
 Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-development.
+
+
 
 ![C](CfgMgr.png)
 ## Projects/sample programs
@@ -27,8 +29,18 @@ Getting started with Visual Studio 2022 for UEFI Shell and ANSI C cross-developm
 ## HowTo
 https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an-uefi-development-pc
 
+## Tool chain support
+* **LLVM/CLANG:** YES
+* **Microsoft v143, v142, v141:** YES
+
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20250727
+* improve DEBUG support: replace binary **lib\\** folder by **toro C Library** source code
+  <br>All Windows sample programs can now be debugged directly in **Visual Studio**, with full debugging support for both the **Standard C Library** and the **xlsxwriter** library.
+* add **LibWin32** and **Visual-LIBXLSXWRITER-for-UEFI** to the solution
+    * **Visual-LIBXLSXWRITER**: simplify component structure, merge all subprojects into one project
+
 ### 20250427
 * LLVM related improvements and bugfixes
 ### 20250323 LLVM/Clang support

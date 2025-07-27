@@ -1,3 +1,4 @@
 .vs
+lib/
 x64/
 !includes/MdePkg/Include/X64/

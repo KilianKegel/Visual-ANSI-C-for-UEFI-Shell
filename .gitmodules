@@ -10,3 +10,12 @@
 [submodule "includes/MdePkg"]
 	path = includes/MdePkg
 	url = https://github.com/KilianKegel/MdePkgInc
+[submodule "Visual-TORO-C-LIBRARY-for-UEFI"]
+	path = Visual-TORO-C-LIBRARY-for-UEFI
+	url = https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI
+[submodule "Visual-LIBXLSXWRITER-for-UEFI-Shell"]
+	path = Visual-LIBXLSXWRITER-for-UEFI-Shell
+	url = https://github.com/KilianKegel/Visual-LIBXLSXWRITER-for-UEFI-Shell
+[submodule "Visual-LIBWIN32-for-UEFI"]
+	path = Visual-LIBWIN32-for-UEFI
+	url = https://github.com/KilianKegel/Visual-LIBWIN32-for-UEFI

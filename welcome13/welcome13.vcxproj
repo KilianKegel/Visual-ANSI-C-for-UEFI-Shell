@@ -91,22 +91,31 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64 (Toro C Library)|x64'">
-    <LinkIncremental>true</LinkIncremental>
+    <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
     <TargetName>$(MSBuildProjectName)</TargetName>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\includes\MdePkg\Include;$(SolutionDir)\includes\MdePkg\Include\x64;$(SolutionDir)\includes\MdePkg\Include\Protocol</IncludePath>
+    <PreBuildEventUseInBuild />
+    <PreLinkEventUseInBuild />
+    <PostBuildEventUseInBuild />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64(LVMM Toro C Library )|x64'">
-    <LinkIncremental>true</LinkIncremental>
+    <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
     <TargetName>$(MSBuildProjectName)</TargetName>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\includes\MdePkg\Include;$(SolutionDir)\includes\MdePkg\Include\x64;$(SolutionDir)\includes\MdePkg\Include\Protocol</IncludePath>
+    <PreBuildEventUseInBuild />
+    <PreLinkEventUseInBuild />
+    <PostBuildEventUseInBuild />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64 (Microsoft C Library)|x64'">
     <LinkIncremental>false</LinkIncremental>
     <GenerateManifest>false</GenerateManifest>
     <TargetName>$(MSBuildProjectName)</TargetName>
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SolutionDir)\includes\MdePkg\Include;$(SolutionDir)\includes\MdePkg\Include\x64;$(SolutionDir)\includes\MdePkg\Include\Protocol</IncludePath>
+    <PreBuildEventUseInBuild />
+    <PreLinkEventUseInBuild />
+    <PostBuildEventUseInBuild />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UEFIx86-64 (Toro C Library)|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -115,6 +124,9 @@
     <TargetExt>.efi</TargetExt>
     <IncludePath>$(SolutionDir)\includes\MdePkg\;$(SolutionDir)\includes\MdePkg\X64;$(SolutionDir)\includes\MdePkg\Protocol;$(IncludePath)</IncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <PreBuildEventUseInBuild />
+    <PreLinkEventUseInBuild />
+    <PostBuildEventUseInBuild />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UEFIX86-64(LLVM Toro C Library)|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -123,6 +135,9 @@
     <TargetExt>.efi</TargetExt>
     <IncludePath>$(SolutionDir)\includes\MdePkg\;$(SolutionDir)\includes\MdePkg\X64;$(SolutionDir)\includes\MdePkg\Protocol;$(IncludePath)</IncludePath>
     <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <PreBuildEventUseInBuild />
+    <PreLinkEventUseInBuild />
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64 (Toro C Library)|x64'">
     <ClCompile>
@@ -151,11 +166,11 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <StringPooling>true</StringPooling>
-      <AdditionalIncludeDirectories>$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>$(SolutionDir)lib\toroC64.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\zlibstat.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\minizip.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\tmpfileplus.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\md5.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)lib\toroC64.lib;$(SolutionDir)lib\Visual-LIBXLSXWRITER-for-UEFI.lib;kernel32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>..\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <EntryPointSymbol>_cdeCRT0WinNT</EntryPointSymbol>
@@ -168,10 +183,12 @@
       <DataExecutionPrevention />
     </Link>
     <PreBuildEvent>
-      <Command>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release</Message>
+      <Message>
+      </Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64(LVMM Toro C Library )|x64'">
@@ -202,11 +219,11 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <StringPooling>true</StringPooling>
-      <AdditionalIncludeDirectories>$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>$(SolutionDir)lib\toroC64LLVMWinNT.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\zlibstat.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\minizip.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\tmpfileplus.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\md5.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)lib\toroc64LLVMWinNT.lib;$(SolutionDir)lib\Visual-LIBXLSXWRITER-for-UEFI.lib;kernel32.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>..\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <EntryPointSymbol>_cdeCRT0WinNT</EntryPointSymbol>
@@ -222,17 +239,19 @@
       </DataExecutionPrevention>
     </Link>
     <PreBuildEvent>
-      <Command>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release</Message>
+      <Message>
+      </Message>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='WinNTx86-64 (Microsoft C Library)|x64'">
     <ClCompile>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MinSpace</Optimization>
+      <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_NO_CRT_STDIO_INLINE;_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <ExceptionHandling>false</ExceptionHandling>
@@ -248,7 +267,7 @@
       <AdditionalOptions>/D_NO_CRT_STDIO_INLINE %(AdditionalOptions)</AdditionalOptions>
       <CompileAs>Default</CompileAs>
       <AssemblerOutput>All</AssemblerOutput>
-      <DebugInformationFormat>None</DebugInformationFormat>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <SupportJustMyCode>false</SupportJustMyCode>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
@@ -256,18 +275,17 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <StringPooling>true</StringPooling>
-      <AdditionalIncludeDirectories>$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>legacy_stdio_definitions.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\zlibstat.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\minizip.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\tmpfileplus.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\md5.lib</AdditionalDependencies>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;$(SolutionDir)lib\Visual-LIBXLSXWRITER-for-UEFI.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <AdditionalLibraryDirectories>..\libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateMapFile>true</GenerateMapFile>
       <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
       <AdditionalOptions>/IGNORE:4078 %(AdditionalOptions)</AdditionalOptions>
-      <GenerateDebugInformation>
-      </GenerateDebugInformation>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
       <RandomizedBaseAddress />
       <DataExecutionPrevention />
       <MapExports />
@@ -300,7 +318,7 @@
       <DisableSpecificWarnings>4100;%(DisableSpecificWarnings);4996;4189;4005</DisableSpecificWarnings>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <StringPooling>true</StringPooling>
-      <AdditionalIncludeDirectories>$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>EFI Application</SubSystem>
@@ -315,7 +333,7 @@
       </FixedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <AdditionalDependencies>$(SolutionDir)lib\toroC64.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\zlibstat.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\minizip.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\tmpfileplus.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\md5.lib;$(ProjectDir)Visual-LIBWIN32-for-UEFI\LibWin324UEFI.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)lib\toroC64.lib;$(SolutionDir)lib\Visual-LIBXLSXWRITER-for-UEFI.lib;$(SolutionDir)lib\LibWin324UEFI.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AllowIsolation>true</AllowIsolation>
       <EnableUAC>false</EnableUAC>
@@ -337,16 +355,20 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PreBuildEvent>
-      <Command>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release &amp; cd $(ProjectDir)Visual-LIBWIN32-for-UEFI &amp; msbuild LibWin324UEFI.sln</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release &amp; cd $(ProjectDir)Visual-LIBWIN32-for-UEFI &amp; msbuild LibWin324UEFI.sln</Message>
+      <Message>
+      </Message>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Command>IF DEFINED MYUSBSHARE copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <PostBuildEvent>
-      <Message>copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Message>
+      <Message>
+      </Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UEFIX86-64(LLVM Toro C Library)|x64'">
@@ -374,7 +396,7 @@
       <DisableSpecificWarnings>4100;%(DisableSpecificWarnings);4996;4189;4005</DisableSpecificWarnings>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <StringPooling>true</StringPooling>
-      <AdditionalIncludeDirectories>$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>EFI Application</SubSystem>
@@ -389,7 +411,7 @@
       </FixedBaseAddress>
       <DataExecutionPrevention>
       </DataExecutionPrevention>
-      <AdditionalDependencies>$(SolutionDir)lib\toroC64LLVMUefiShell.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\zlibstat.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\libxlsxwriter.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\minizip.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\tmpfileplus.lib;$(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell\md5.lib;$(ProjectDir)Visual-LIBWIN32-for-UEFI\LibWin324UEFI.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(SolutionDir)lib\toroC64LLVMUefiShell.lib;$(SolutionDir)lib\Visual-LIBXLSXWRITER-for-UEFI.lib;$(SolutionDir)lib\LibWin324UEFI.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
       <AllowIsolation>true</AllowIsolation>
       <EnableUAC>false</EnableUAC>
@@ -413,10 +435,12 @@
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
     <PreBuildEvent>
-      <Command>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release &amp; cd $(ProjectDir)Visual-LIBWIN32-for-UEFI &amp; msbuild LibWin324UEFI.sln</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PreBuildEvent>
-      <Message>cd $(ProjectDir)Visual-LIBXLSXWRITER-for-UEFI-Shell &amp; msbuild Visual-LIBXLSXWRITER-for-UEFI.sln /p:Configuration=Release &amp; cd $(ProjectDir)Visual-LIBWIN32-for-UEFI &amp; msbuild LibWin324UEFI.sln</Message>
+      <Message>
+      </Message>
     </PreBuildEvent>
     <PostBuildEvent>
       <Command>IF DEFINED MYUSBSHARE copy /y "$(OutDir)$(TargetName)$(TargetExt)" $(MYUSBSHARE)</Command>

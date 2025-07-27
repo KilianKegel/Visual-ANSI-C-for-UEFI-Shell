@@ -1,0 +1,314 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome", "welcome\welcome.vcxproj", "{5DF36606-FCB4-4FCC-A2FB-423E43492F00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome1", "welcome1\welcome1.vcxproj", "{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome2", "welcome2\welcome2.vcxproj", "{325CC6F7-8607-455F-8EA0-029E4DC17785}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome3", "welcome3\welcome3.vcxproj", "{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome4", "welcome4\welcome4.vcxproj", "{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome6", "welcome6\welcome6.vcxproj", "{22824789-E174-4865-8A98-A6C64BF539AA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome7", "welcome7\welcome7.vcxproj", "{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome8", "welcome8\welcome8.vcxproj", "{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome5", "welcome5\welcome5.vcxproj", "{0077AF38-5F1A-4AA5-984A-852F3D91098E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "argcv", "argcv\argcv.vcxproj", "{38E569BF-F2F2-4E4A-9A27-33916660DA09}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome9", "welcome9\welcome9.vcxproj", "{080E2E3A-2A7B-4799-9079-E2BE03581BFF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome10", "welcome10\welcome10.vcxproj", "{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome11", "welcome11\welcome11.vcxproj", "{6E289CED-4826-4720-A243-50C6621CD8DF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome12", "welcome12\welcome12.vcxproj", "{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0999D2CB-1CF3-4D4F-9101-04AC3BF6B3B2}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome13", "welcome13\welcome13.vcxproj", "{A199E4F9-95A9-4735-B28B-4A8AF14969A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{223B3668-E022-4DA7-A33D-C9168D1357A3} = {223B3668-E022-4DA7-A33D-C9168D1357A3}
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+		{C750B413-B457-4901-A3CE-87F541FA5232} = {C750B413-B457-4901-A3CE-87F541FA5232}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome14", "welcome14\welcome14.vcxproj", "{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "welcome15", "welcome15\welcome15.vcxproj", "{DE054D44-AEFE-4259-9B1A-366AE185692A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C250C8A-C234-450D-83ED-F0C898E1A739} = {8C250C8A-C234-450D-83ED-F0C898E1A739}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LibWin324UEFI", "Visual-LIBWIN32-for-UEFI\LibWin324UEFI.vcxproj", "{223B3668-E022-4DA7-A33D-C9168D1357A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Visual-LIBXLSXWRITER-for-UEFI", "Visual-LIBXLSXWRITER-for-UEFI-Shell\Visual-LIBXLSXWRITER-for-UEFI.vcxproj", "{C750B413-B457-4901-A3CE-87F541FA5232}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "toroCLibrary", "Visual-TORO-C-LIBRARY-for-UEFI\toroCLibrary\toroCLibrary.vcxproj", "{8C250C8A-C234-450D-83ED-F0C898E1A739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		UEFIx86-64 (Toro C Library)|x64 = UEFIx86-64 (Toro C Library)|x64
+		UEFIx86-64(LLVM Toro C Library)|x64 = UEFIx86-64(LLVM Toro C Library)|x64
+		WinNTx86-64 (Microsoft C Library)|x64 = WinNTx86-64 (Microsoft C Library)|x64
+		WinNTx86-64 (Toro C Library)|x64 = WinNTx86-64 (Toro C Library)|x64
+		WinNTx86-64(LVMM Toro C Library )|x64 = WinNTx86-64(LVMM Toro C Library )|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{5DF36606-FCB4-4FCC-A2FB-423E43492F00}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{9B3D839B-3A5A-41A2-ACD1-996F3087C13E}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{325CC6F7-8607-455F-8EA0-029E4DC17785}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{A860A7DB-70D5-4EF5-8DBD-30C67DDCE94A}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{BE3834E2-49FB-49C2-B8A0-6841F0945CC7}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{22824789-E174-4865-8A98-A6C64BF539AA}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{EEE4F7DF-B3BB-4772-AB74-B9FA74CA0E6E}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{54846EAF-AEB4-4CDA-9D91-8D8375682AE8}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{0077AF38-5F1A-4AA5-984A-852F3D91098E}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{38E569BF-F2F2-4E4A-9A27-33916660DA09}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{080E2E3A-2A7B-4799-9079-E2BE03581BFF}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{7F368450-EAA0-4FE3-8A3E-D73AF69B259D}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{6E289CED-4826-4720-A243-50C6621CD8DF}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{E98A5AA3-E39E-4A97-8A7E-A2A4A138777C}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{A199E4F9-95A9-4735-B28B-4A8AF14969A2}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{DA7940A1-4B90-4CFC-908C-3D8E0790C4D6}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = UEFIx86-64 (Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.UEFIx86-64 (Toro C Library)|x64.Build.0 = UEFIx86-64 (Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = UEFIX86-64(LLVM Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = UEFIX86-64(LLVM Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = WinNTx86-64 (Microsoft C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = WinNTx86-64 (Microsoft C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = WinNTx86-64 (Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64 (Toro C Library)|x64.Build.0 = WinNTx86-64 (Toro C Library)|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = WinNTx86-64(LVMM Toro C Library )|x64
+		{DE054D44-AEFE-4259-9B1A-366AE185692A}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = WinNTx86-64(LVMM Toro C Library )|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.UEFIx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = Debug|x64
+		{223B3668-E022-4DA7-A33D-C9168D1357A3}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.UEFIx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = Debug|x64
+		{C750B413-B457-4901-A3CE-87F541FA5232}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.UEFIx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.UEFIx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.UEFIx86-64(LLVM Toro C Library)|x64.ActiveCfg = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.UEFIx86-64(LLVM Toro C Library)|x64.Build.0 = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64 (Microsoft C Library)|x64.ActiveCfg = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64 (Microsoft C Library)|x64.Build.0 = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64 (Toro C Library)|x64.ActiveCfg = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64 (Toro C Library)|x64.Build.0 = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64(LVMM Toro C Library )|x64.ActiveCfg = Debug|x64
+		{8C250C8A-C234-450D-83ED-F0C898E1A739}.WinNTx86-64(LVMM Toro C Library )|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3DBC57F-BDA5-4667-9A5F-0CED277DF760}
+	EndGlobalSection
+EndGlobal
