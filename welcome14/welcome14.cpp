@@ -10,7 +10,7 @@
 #include "base_t.h"
 #include <intrin.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+//Available functions: https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#implementation-status--cross-matrix
 
 #define ELC(x) (sizeof(x)/sizeof(x[0]))
 

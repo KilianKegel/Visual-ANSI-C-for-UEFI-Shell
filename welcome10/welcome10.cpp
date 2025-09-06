@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+//Available functions: https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#implementation-status--cross-matrix
 
 class GlobalClass {
 public:

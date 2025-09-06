@@ -6,7 +6,7 @@
 #include <protocol\shell.h>
 #include <intrin.h>
 
-// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#implementation-status--cross-matrix
 
 int rdrtc(int i) {
     __outbyte(0x70, i);

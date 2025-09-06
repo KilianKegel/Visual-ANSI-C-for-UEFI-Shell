@@ -8,7 +8,7 @@ EFI_SYSTEM_TABLE* SystemTable;
 EFI_HANDLE ImageHandle;
 EFI_EVENT Timer;
 
-// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#implementation-status--cross-matrix
 
 extern char* _strefierror(EFI_STATUS errcode); // Torito C extension accordingly strerror()
 

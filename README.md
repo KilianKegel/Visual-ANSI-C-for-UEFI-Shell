@@ -35,6 +35,9 @@ https://github.com/KilianKegel/HowTo-setup-an-UEFI-Development-PC#howto-setup-an
 
 # Revision history
 https://github.com/KilianKegel/torito-C-Library#revision-history
+### 20250906
+* update to [**toro C Library 20250906, v0.9.6 Build 757**](https://github.com/KilianKegel/Visual-TORO-C-LIBRARY-for-UEFI?tab=readme-ov-file#20250906-v096-build-757)
+
 ### 20250727
 * improve DEBUG support: replace binary **lib\\** folder by **toro C Library** source code
   <br>All Windows sample programs can now be debugged directly in **Visual Studio**, with full debugging support for both the **Standard C Library** and the **xlsxwriter** library.
@@ -44,34 +47,34 @@ https://github.com/KilianKegel/torito-C-Library#revision-history
 ### 20250427
 * LLVM related improvements and bugfixes
 ### 20250323 LLVM/Clang support
-* update to [**TORO C Library 20250322, v0.9.1 Build 267**]
+* update to [**toro C Library 20250322, v0.9.1 Build 267**]
 * **add LLVM/Clang support**
 ### 20250105
-* update to [**TORO C Library 20241222, v0.8.8 Build 227**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20241222-v088-build-227)
+* update to [**toro C Library 20241222, v0.8.8 Build 227**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20241222-v088-build-227)
 * improve **welcome11** sample to demonstrate UEFI API timer callback
 * introduce **welcome15** sample to demonstrate `system()` to run shell commands directly
 ### 20240921
-* update to [**TORO C Library 20240908, v0.8.6 Build 187**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20240908-v086-build-187)
+* update to [**toro C Library 20240908, v0.8.6 Build 187**](https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#20240908-v086-build-187)
 * remove `WARGCV` temorarily. Non-Standart-`wmain()` is currently not supported.
 * improve UEFI target development support: [**MYUSBSHARE**](https://github.com/KilianKegel/Howto-setup-a-UEFI-Development-PC/blob/master/envedit.png)
 ### 20231119
-* update to **TORO C Library 20231118**
+* update to **toro C Library 20231118**
     * add ACPI timer based synchronization
 ### 20231014
-* update to **TORO C Library** *20231014*
+* update to **toro C Library** *20231014*
 * improve **welcome13** sample to demonstrate *EXCEL 2016* bugfix
 ### 20230909
-* update to **TORO C Library** *20230909*
+* update to **toro C Library** *20230909*
 ### 20230410
-* update to **TORO C Library** *20230409*
+* update to **toro C Library** *20230409*
 ### 20230305
-* update to **TORO C Library** *20230304*
+* update to **toro C Library** *20230304*
 ### 20230212
-* update to **TORO C Library** *20230212*
+* update to **toro C Library** *20230212*
 ### 20230104
-* update to **TORO C Library** *20230104*
+* update to **toro C Library** *20230104*
 ### 20221024
-* update to **TORO C Library** *20221022*
+* update to **toro C Library** *20221022*
 ### 20220924
 * change menu activation key (formerly ALT) to F10  for "C++ text UI/UX" sample program WELCOME14
   NOTE: ALT-key is not supported on all platforms https://www.youtube.com/watch?v=gMwCKA6SQrk
@@ -80,12 +83,12 @@ https://github.com/KilianKegel/torito-C-Library#revision-history
 ### 20220507
 * add support and demo for John McNamara's Microsoft Excel writer library [*libxlsxwriter*](https://github.com/jmcnamara/libxlsxwriter#libxlsxwriter)
 ### 20220501
-* update to **TORO C Library** *20220501*
+* update to **toro C Library** *20220501*
 ### 20211107
 * add wmain() support<br>
   ATTENTION: The presence of main() is not detected at build time anymore, but at runtime.
 ### 20211101
-* update to **TORO C Library** *20211031*
+* update to **toro C Library** *20211031*
 ### 20211017
 * update to toroC64.lib with `_cdeCRT0WinNT()` CRT0 for Windows
 ### 20210825

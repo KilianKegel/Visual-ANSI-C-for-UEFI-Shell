@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Available functions: https://github.com/KilianKegel/toro-C-Library#implementation-status
+// Available functions: https://github.com/KilianKegel/toro-C-Library?tab=readme-ov-file#implementation-status--cross-matrix
 
 int main(int argc, char** argv) {
     size_t size = sizeof("Welcome, to the jungle\n") - 1;
